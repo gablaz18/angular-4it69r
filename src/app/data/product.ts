@@ -3,7 +3,7 @@
 export const DATA: any[] = [
   {
     ProductID: 1,
-    ProductName: 'Soleil',
+    ProductName: 'Chanel',
     UnitPrice: 265.99,
     UnitsInStock: 2,
     ImageURL:
@@ -23,7 +23,7 @@ export const DATA: any[] = [
   },
   {
     ProductID: 3,
-    ProductName: 'Fleur',
+    ProductName: 'Versace',
     UnitPrice: 198.0,
     UnitsInStock: 1,
     ImageURL:

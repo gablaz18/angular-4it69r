@@ -1,3 +1,8 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>SentirBon</h1>
+<p>My first paragraph.</p>
 <div class="sample-column">
     <div class="card-wrapper">
         <ng-container *ngFor="let product of data">
@@ -11,11 +16,11 @@
                 </igx-card-header>
 
                 <igx-card-content>
-                    <h5 igxCardHeaderSubtitle>Price: {{ product.UnitPrice | currency:'USD' }}</h5>
+                    <h5 igxCardHeaderSubtitle>Prix: {{ product.UnitPrice | currency:'CAD' }}</h5>
                 </igx-card-content>
 
                 <igx-card-actions>
-                    <button igxButton="outlined" igxRipple> Buy now</button>
+                    <button igxButton="outlined" igxRipple> Acheter</button>
                     <button igxButton="icon"
                         igxRipple
                         [igxRippleCentered]="true"
